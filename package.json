@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "vercel:install": "yarn set version 3.5 && yarn install",
+    "vercel:install": "yarn set version berry && yarn install",
     "native": "cd apps/expo && yarn start",
     "watch": "yarn workspaces foreach -pi run watch",
     "web": "yarn build && cd apps/next && yarn next",
