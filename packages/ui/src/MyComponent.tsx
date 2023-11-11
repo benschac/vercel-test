@@ -8,6 +8,7 @@ export const MyComponent = styled(YStack, {
     blue: {
       true: {
         backgroundColor: 'blue',
+        color: 'red',
       },
     },
   } as const,
